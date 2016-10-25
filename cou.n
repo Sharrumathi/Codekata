@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int no,count=0;
+clrscr();
+printf("\n Enter the integer value:");
+scanf("%d",&no);
+while(no!=0)
+{
+no=no/10;
+count++;
+}
+printf("\n There are %d digits in the given integer",count);
+getch();
+}
+
